@@ -1,13 +1,39 @@
+✏️ Vector Pad
 
-![Build   Deploy Erasor io Clone Using Next Js   React with Typescript](https://github.com/rrs301/erasor_clone/assets/20216436/4dfdc7cf-3b26-43ca-bcb0-7afcb19c190a)
+A collaborative drawing and diagramming web application built with Next.js, React, and TypeScript.
+Vector Pad allows users to create, edit, and share diagrams in real-time with a smooth and interactive UI.
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🔗 GitHub Profile: https://github.com/GunjanBasak007
 
-## Getting Started
+🚀 Features
+🎨 Interactive canvas for drawing shapes and diagrams
+⚡ Real-time updates (collaborative-ready architecture)
+🧩 Component-based scalable frontend
+📱 Responsive and modern UI
+🔤 Optimized font loading using next/font
+🛠️ Tech Stack
+Frontend: Next.js, React, TypeScript
+Styling: CSS / Tailwind (if used, update this)
+Deployment: Vercel (recommended)
+⚙️ Getting Started
 
-First, run the development server:
+First, clone the repository:
 
-```bash
+git clone https://github.com/GunjanBasak007/vector-pad.git
+cd vector-pad
+
+Install dependencies:
+
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+
+Run the development server:
+
 npm run dev
 # or
 yarn dev
@@ -15,25 +41,40 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000
+ in your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🧑‍💻 Development
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Start editing the main page here:
 
-## Learn More
+app/page.tsx
 
-To learn more about Next.js, take a look at the following resources:
+The app will automatically reload as you make changes.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📚 Learn More
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+To learn more about Next.js:
 
-## Deploy on Vercel
+Next.js Documentation: https://nextjs.org/docs
+Learn Next.js: https://nextjs.org/learn
+🚀 Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The easiest way to deploy Vector Pad is using Vercel.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Check out deployment guide:
+https://nextjs.org/docs/deployment
+
+📌 Future Improvements
+Real-time collaboration (WebSockets / Convex)
+User authentication
+Saving and loading boards
+Export as image / PDF
+🤝 Contributing
+
+Contributions are welcome! Feel free to fork the repo and submit a pull request.
+
+⭐ Show Your Support
+
+If you like this project, consider giving it a ⭐ on GitHub!
